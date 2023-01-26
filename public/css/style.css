@@ -1,0 +1,61 @@
+.container {
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.countries {
+    width: 15vw;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.country {
+    width: 90%;
+    margin: 10px;
+    border: 1px dashed #ccc;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.country:hover {
+    background-color: blueviolet;
+}
+
+.states {
+    width: 30vw;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.state {
+    margin: 10px;
+    border: 1px dashed #ccc;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.state:hover {
+    background-color: tomato;
+}
+
+.cities {
+    width: 48vw;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.city {
+    margin: 10px;
+    border: 1px dashed #ccc;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.city:hover {
+    background-color:teal;
+}
